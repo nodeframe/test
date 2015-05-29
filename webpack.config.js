@@ -10,5 +10,10 @@ module.exports = {
             { test: /\.less$/, loader: "style!css!less" },
             { test: /\.css$/, loader: "style!css" }
         ]
+    },
+    resolve:{
+        alias:{
+            'angular':'bower_components/angular/angular.min.js'
+        }
     }
 };
